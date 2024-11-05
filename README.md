@@ -11,19 +11,19 @@ Take a look around, and feel free to reach out—I’d love to connect!
 ## Analysis & Coding Projects
 
 1. **MGMT 488 - Data-Driven Decisions in Digital Markets**
-Role: Database Analyst
-Objective: Developed a database system for Fresh Harvest Grocery to manage and track the freshness of produce, aiming to optimize inventory management and reduce waste.
-Tools/Techniques Used: SQL, Google Cloud Platform (GCP) BigQuery
-Process:
-      - Designed a database schema including tables for employees, products, suppliers, purchases, and restocking logs.
-      - Created queries to monitor product shelf life, employee responsibilities, and supplier efficiency, helping to make timely restocking decisions.
-      - Implemented alert thresholds to notify staff when items were nearing expiration, minimizing loss due to spoilage. Outcome: Enabled Fresh Harvest Grocery to track produce freshness effectively, reduce inventory costs, and improve decision-making regarding supplier partnerships and restocking schedules​
 
 2. **MGMT 4211 - Marketing Analytics**
    - *Focus on coding and data analysis skills used in marketing insights.*
 
-3. **MGMT 544 - Database Management Systems**
-   - *Description of database development and management, including SQL and GCP BigQuery.*
+3.### MGMT 544 - Database Management Systems: Produce Tracking and Management
+**Role**: Database Analyst  
+**Objective**: Developed a database system for Fresh Harvest Grocery to manage and track the freshness of produce, aiming to optimize inventory management and reduce waste.  
+**Tools/Techniques Used**: SQL, Google Cloud Platform (GCP) BigQuery  
+**Process**:
+   - Designed a database schema including tables for employees, products, suppliers, purchases, and restocking logs.
+   - Created queries to monitor product shelf life, employee responsibilities, and supplier efficiency, helping to make timely restocking decisions.
+   - Implemented alert thresholds to notify staff when items were nearing expiration, minimizing loss due to spoilage.  
+**Outcome**: Enabled Fresh Harvest Grocery to track produce freshness effectively, reduce inventory costs, and improve decision-making regarding supplier partnerships and restocking schedules.
 
 4. **MGMT 473 - Data Mining**
    - *Overview of data mining techniques and tools.*
