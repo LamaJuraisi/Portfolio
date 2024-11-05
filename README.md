@@ -1,69 +1,66 @@
-# Welcome to My Portfolio!
-Hi there! I’m Lama, a Business Analyst passionate about using data to drive insights and make a real impact. 
-Throughout my career, I've worked on projects that blend strategic analysis with technical skills, like data visualization and automation. 
+# Forty - Jekyll Theme
 
-In this portfolio, you’ll see some of my key projects and insights gained along the way, from consulting internships to data-driven analyses. 
-Whether it's creating dashboards, analyzing market trends, or building strategies, I’m always excited to share the impact data can make.
+A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
 
-Take a look around, and feel free to reach out—I’d love to connect!
+![Forty Theme](assets/images/forty.jpg "Forty Theme")
 
+# How to Use
 
-## Analysis & Coding Projects
+For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
+or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
+and [creating pages](https://jekyllrb.com/docs/pages/).
 
-1. **MGMT 488 - Data-Driven Decisions in Digital Markets**
+Simply fork this repository and start editing the `_config.yml` file!
 
-2. **MGMT 4211 - Marketing Analytics**
-### **3. MGMT 544 - Database Management Systems: Produce Tracking and Management**
+> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
 
-**Role**: Database Analyst  
+# Added Features
 
-**Objective**: Developed a database system for Fresh Harvest Grocery to manage and track the freshness of produce, aiming to optimize inventory management and reduce waste.  
+* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
+* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
+* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
+* Set **featured images** in front matter.
 
-**Tools/Techniques Used**: SQL, Google Cloud Platform (GCP) BigQuery  
+# Credits
 
-**Process**:
-   - Designed a database schema including tables for employees, products, suppliers, purchases, and restocking logs.
-   - Created queries to monitor product shelf life, employee responsibilities, and supplier efficiency, helping to make timely restocking decisions.
-   - Implemented alert thresholds to notify staff when items were nearing expiration, minimizing loss due to spoilage.  
+Original README from HTML5 UP:
 
-**Outcome**: Enabled Fresh Harvest Grocery to track produce freshness effectively, reduce inventory costs, and improve decision-making regarding supplier partnerships and restocking schedules.
-
-4. **MGMT 473 - Data Mining**
-   - *Overview of data mining techniques and tools.*
-
-5. **MGMT 479 - Data Visualization**
-   - *Details on visualization work, using tools like R Shiny, Tableau, or JavaScript.*
-
-6. **MGMT 474 - Predictive Analytics**
-   - *Highlight predictive modeling techniques and coding used.*
-
----
-
-## Other Projects
-
-1. **MGMT 496 - Management Consulting Practicum**
-   - *Description focusing on consulting skills, strategic analysis, and client recommendations.*
-
-2. **MGMT 382 - Management Information Systems**
-   - *Overview of systems management and strategy development.*
-
----
-
-## Skills
-
-- **Technical Skills**: Python, SQL, Tableau, Excel, R, AWS
-- **Soft Skills**: Leadership, Strategic Thinking, Problem-Solving
-
----
-
-## Projects
-
-- [MGMT 544 - Database Management Systems](projects/MGMT544.md)
-- [MGMT 488 - Data-Driven Decisions in Digital Markets](projects/MGMT488.md)
-- [MGMT 4211 - Marketing Analytics](projects/MGMT4211.md)
+```
+Forty by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
----
-## Contact Information
+This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
+creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
+set up to smoothly transition to secondary landing pages (for which a separate page
+template is provided), and includes a number of neat effects (check out the menu!),
+extra features, and all the usual stuff you'd expect. Hope you dig it!
 
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/lamaaljuraisi/) or reach out via email at lama.juraisy@gmail.com.
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
+
+(* = not included)
+
+AJ
+aj@lkn.io | @ajlkn
+
+
+Credits:
+
+	Demo Images:
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other:
+		jQuery (jquery.com)
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		background-size polyfill (github.com/louisremi)
+		Misc. Sass functions (@HugoGiraudel)
+		Respond.js (j.mp/respondjs)
+		Skel (skel.io)
+```
+
+Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
