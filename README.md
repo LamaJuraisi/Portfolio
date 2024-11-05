@@ -11,7 +11,13 @@ Take a look around, and feel free to reach out—I’d love to connect!
 ## Analysis & Coding Projects
 
 1. **MGMT 488 - Data-Driven Decisions in Digital Markets**
-   - *Brief description here, highlighting analytical skills and tools like SQL, Python, Tableau.*
+Role: Database Analyst
+Objective: Developed a database system for Fresh Harvest Grocery to manage and track the freshness of produce, aiming to optimize inventory management and reduce waste.
+Tools/Techniques Used: SQL, Google Cloud Platform (GCP) BigQuery
+Process:
+      - Designed a database schema including tables for employees, products, suppliers, purchases, and restocking logs.
+      - Created queries to monitor product shelf life, employee responsibilities, and supplier efficiency, helping to make timely restocking decisions.
+      - Implemented alert thresholds to notify staff when items were nearing expiration, minimizing loss due to spoilage. Outcome: Enabled Fresh Harvest Grocery to track produce freshness effectively, reduce inventory costs, and improve decision-making regarding supplier partnerships and restocking schedules​
 
 2. **MGMT 4211 - Marketing Analytics**
    - *Focus on coding and data analysis skills used in marketing insights.*
