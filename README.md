@@ -56,6 +56,14 @@ Take a look around, and feel free to reach out—I’d love to connect!
 
 ---
 
+## Projects
+
+- [MGMT 544 - Database Management Systems](projects/MGMT544.md)
+- [MGMT 488 - Data-Driven Decisions in Digital Markets](projects/MGMT488.md)
+- [MGMT 4211 - Marketing Analytics](projects/MGMT4211.md)
+
+
+---
 ## Contact Information
 
 Feel free to connect with me on [LinkedIn](https://linkedin.com/in/lamaaljuraisi/) or reach out via email at lama.juraisy@gmail.com.
