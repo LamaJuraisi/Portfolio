@@ -7,12 +7,13 @@ body {
 /* Header styles with background image */
 header {
   position: relative;
-  background: url('/assets/images/pic03.jpg') no-repeat center center !important;
+  background: url('https://lamajuraisi.github.io/Portfolio/assets/images/pic03.jpg') no-repeat center center !important;
   background-size: cover !important;
   color: white;
   text-align: center;
   padding: 3em 1em;
 }
+
 
 /* Overlay to darken background for text visibility */
 header::before {
