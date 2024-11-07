@@ -182,3 +182,68 @@ footer {
     position: relative;
     text-align: center;
 }
+/* Overall Page Background Color */
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.6;
+  color: #FFFFFF; /* White color for text to contrast with dark background */
+  background-color: #202A44; /* Navy background */
+}
+
+/* Header and Major Section Title Styling */
+header h1, .major h1 {
+  font-family: 'Markazi Text', serif;
+  color: #FFFFFF;
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Titles */
+h2, .section-title {
+  font-family: 'Markazi Text', serif;
+  color: #FFFFFF;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 0.3em;
+}
+
+/* Paragraph and Link Styling */
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.1em;
+  color: #CCCCCC; /* Slightly lighter than pure white for readability */
+  max-width: 700px;
+  margin: 1em auto;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a.button {
+  font-size: 1.1em;
+  padding: 0.8em 2em;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+a.button:hover {
+  background-color: #FFFFFF;
+  color: #202A44;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
