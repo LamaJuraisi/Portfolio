@@ -2,7 +2,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   line-height: 1.6;
-  color: #CCCCCC;
+  color: #CCCCCC; /* Slightly lighter for readability */
   background-color: #1D2B3A; /* Updated navy background color */
   margin: 0;
 }
@@ -19,13 +19,13 @@ header {
 
 /* Overlay Effect with Updated Tint */
 .overlay {
-  background: rgba(29, 43, 58, 0.5); /* Navy tint */
+  background: rgba(29, 43, 58, 0.5); /* Navy blue tint */
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 0; /* Lower than other elements */
+  z-index: 0; /* Ensures overlay stays below other elements */
 }
 
 /* Header Content */
@@ -110,7 +110,7 @@ main {
 
 /* Footer */
 footer {
-  background: #1D2B3A; /* Match footer to body color */
+  background: #1D2B3A;
   color: #CCCCCC;
   text-align: center;
   padding: 1em;
