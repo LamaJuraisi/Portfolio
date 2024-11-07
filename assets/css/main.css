@@ -8,7 +8,7 @@ body {
 /* Header styles with background image and purple tint overlay */
 header {
   position: relative;
-  background: url('/assets/images/pic03.jpg') no-repeat center center;
+  background: url('https://lamajuraisi.github.io/Portfolio/assets/images/pic03.jpg') no-repeat center center !important;
   background-size: cover;
   color: white;
   text-align: center;
