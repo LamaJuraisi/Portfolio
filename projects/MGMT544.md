@@ -13,7 +13,8 @@ Developed a database system to manage inventory for Fresh Harvest Grocery, aimin
 ## Key Code Snippets
 ### Average Shelf Life by Product Category
 ```sql
-SELECT P.Category, AVG(DATE_DIFF(PI.PurchaseDate, PI.ExpirationDate, DAY)) AS AvgShelfLife
+SELECT P.Category, AVG(DATE_DIFF(PI.PurchaseDate, PI.ExpirationDate, DAY))
+AS AvgShelfLife
 FROM FreshHarvestDB.ProductInventory AS PI
 JOIN FreshHarvestDB.Product AS P ON P.ProductID = PI.ProductID
 GROUP BY P.Category;
@@ -46,7 +47,8 @@ Helps Fresh Harvest identify suppliers that deliver produce with the longest she
 
 ```sql
 SELECT s.Supplier_Name, 
-       AVG(DATE_DIFF(PI.PurchaseDate, PI.ExpirationDate, DAY)) AS Avg_Freshness_At_Arrival
+       AVG(DATE_DIFF(PI.PurchaseDate, PI.ExpirationDate, DAY))
+AS Avg_Freshness_At_Arrival
 FROM FreshHarvestDB.Supplier s
 JOIN FreshHarvestDB.Purchase pu ON s.SupplierID = pu.SupplierID
 JOIN FreshHarvestDB.Product p ON pu.ProductID = p.ProductID
@@ -74,7 +76,8 @@ Identifies suppliers who offer both the longest shelf life and the lowest purcha
 ```sql
 SELECT s.Supplier_Name, 
        AVG(pu.Total_Cost) AS Average_Purchase_Cost,
-       AVG(DATE_DIFF(PI.PurchaseDate, p.Expiration_Date, DAY)) AS Avg_Freshness_At_Arrival
+       AVG(DATE_DIFF(PI.PurchaseDate, p.Expiration_Date, DAY))
+AS Avg_Freshness_At_Arrival
 FROM FreshHarvestDB.Supplier s
 JOIN FreshHarvestDB.Purchase pu ON s.SupplierID = pu.SupplierID
 JOIN FreshHarvestDB.Product p ON pu.ProductID = p.ProductID
