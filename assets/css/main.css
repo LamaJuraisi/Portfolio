@@ -1,243 +1,111 @@
-/* Apply Raleway as the primary font across the entire site */
+/* Base Styling */
 body {
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  color: #CCCCCC; /* Slightly lighter for readability */
+  background-color: #202A44; /* Navy background */
+  margin: 0;
 }
 
-/* Header styles with background image */
+/* Header styling with background image */
 header {
-    position: relative;
-    background: url('https://lamajuraisi.github.io/Portfolio/assets/images/pic03.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 3em 1em;
-}
-
-/* Overlay to add tint over header image */
-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 139, 0.5); /* Purple tint with 50% opacity */
-    z-index: 0;
-}
-
-header h1, header p, header nav {
-    position: relative;
-    z-index: 1;
-}
-
-/* Text styling for header */
-header h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3em;
-    color: #ffffff;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-    font-weight: 800;
-}
-
-header p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
-    color: #ffffff;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Navigation link styling */
-nav a {
-    color: #ffffff;
-    margin: 0 1em;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #007acc;
-}
-
-/* Footer styling */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-
-/* Main content styling */
-main {
-    padding: 1em;
-    max-width: 800px;
-    margin: auto;
-}
-
-/* Heading styles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
-    color: #007acc;
-    font-weight: 700;
-}
-
-/* Specific heading styles with text shadow */
-h1 {
-    font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-h2 {
-    font-size: 2em;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-/* Button styling */
-.button {
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    color: #ffffff;
-    background-color: #007acc;
-    padding: 0.5em 1.5em;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #005fa3;
-}
-
-/* Ensures the body takes full height */
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-/* The main content will take up available space */
-main {
-    flex: 1;
-    padding: 1em;
-    max-width: 800px;
-    margin: auto;
-}
-
-/* Footer stays at the bottom */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
+  position: relative;
+  background: url('https://lamajuraisi.github.io/Portfolio/assets/images/pic03.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 5em 1em;
 }
 
 /* Overlay Effect with Navy Blue Tint */
-.overlay {
-    background: rgba(32, 42, 68, 0.5); /* Navy blue tint with 50% transparency */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
+header::before, .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(32, 42, 68, 0.7); /* Navy tint */
+  z-index: 0;
 }
 
-
-/* Header Text and Button Styles */
-#banner h1 {
-    font-family: 'Markazi Text', serif;
-    font-size: 3em;
-    color: white;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-}
-
-#banner p {
-    font-family: 'Merriweather', serif;
-    font-size: 1.2em;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.actions .button {
-    font-family: 'Merriweather', serif;
-    font-size: 1.1em;
-    padding: 0.8em 2em;
-    border: 2px solid white;
-    color: white;
-    background-color: transparent;
-    text-transform: uppercase;
-}
-
-/* Top Left Corner Text */
-.top-left-info h2, .top-left-info p {
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-/* Centered Layout and Spacing */
-.inner {
-    position: relative;
-    text-align: center;
-}
-/* Overall Page Background Color */
-body {
-  font-family: 'Merriweather', serif;
-  line-height: 1.6;
-  color: #FFFFFF; /* White color for text to contrast with dark background */
-  background-color: #202A44; /* Navy background */
-}
-
-/* Header and Major Section Title Styling */
-header h1, .major h1 {
+/* Header Content */
+header h1 {
   font-family: 'Markazi Text', serif;
-  color: #FFFFFF;
   font-size: 3em;
-  margin-bottom: 0.2em;
+  color: white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
 }
 
-/* Section Titles */
-h2, .section-title {
-  font-family: 'Markazi Text', serif;
-  color: #FFFFFF;
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-  border-bottom: 2px solid #FFFFFF;
-  padding-bottom: 0.3em;
-}
-
-/* Paragraph and Link Styling */
-p {
+header p {
   font-family: 'Merriweather', serif;
-  font-size: 1.1em;
-  color: #CCCCCC; /* Slightly lighter than pure white for readability */
-  max-width: 700px;
-  margin: 1em auto;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
 }
 
-a {
-  color: #FFFFFF;
-  text-decoration: underline;
+/* Navigation Link Styling */
+nav a {
+  color: #ffffff;
+  margin: 0 1em;
+  font-weight: 600;
+  text-decoration: none;
+  z-index: 1;
 }
 
-a.button {
+nav a:hover {
+  color: #007acc;
+}
+
+/* Button Styling */
+.actions .button {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.1em;
   padding: 0.8em 2em;
+  border: 2px solid white;
+  color: white;
   background-color: transparent;
-  border: 2px solid #FFFFFF;
-  color: #FFFFFF;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-block;
-  margin-top: 1em;
 }
 
-a.button:hover {
-  background-color: #FFFFFF;
+.actions .button:hover {
+  background-color: white;
   color: #202A44;
+}
+
+/* Top Left Corner Information */
+.top-left-info {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.top-left-info h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.top-left-info p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+/* Main Content Styling */
+main {
+  padding: 2em 1em;
+  max-width: 800px;
+  margin: auto;
 }
 
 /* Footer */
@@ -246,4 +114,53 @@ footer {
   color: white;
   text-align: center;
   padding: 1em;
+  margin-top: auto;
+}
+
+/* Heading Styling */
+h1, h2 {
+  font-family: 'Markazi Text', serif;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 2em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.5em;
+}
+
+/* Paragraph and Link Styling */
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.1em;
+  color: #CCCCCC;
+  max-width: 700px;
+  margin: 1em auto;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a.button {
+  display: inline-block;
+  font-size: 1.1em;
+  padding: 0.8em 2em;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+a.button:hover {
+  background-color: white;
+  color: #202A44;
 }
