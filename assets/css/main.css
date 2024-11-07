@@ -107,3 +107,14 @@ footer {
   font-size: 0.9em; /* Smaller font for footer */
   font-weight: normal; /* Remove bold */
 }
+
+/* Remove underline from all links */
+a {
+  text-decoration: none; /* Removes underline */
+  color: white; /* Keeps links visible */
+}
+
+a:hover {
+  color: #007acc; /* Optional: Change color on hover */
+  text-decoration: none; /* Ensures no underline on hover */
+}
