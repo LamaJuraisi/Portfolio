@@ -8,5 +8,5 @@ title: "Contact"
 Feel free to connect with me:
 
 - **Email**: [Lama.juraisy@gmail.com](mailto:Lama.juraisy@gmail.com)
-- **LinkedIn**: [linkedin.com/in/your-linkedin-url](https://linkedin.com/in/your-linkedin-url)
+- **LinkedIn**: [Lama Aljuraisi](www.linkedin.com/in/lamaaljuraisi)
 - **School Email**: [laljurai@purdue.edu](mailto:Laljurai@purdue.edu)
