@@ -118,3 +118,26 @@ a:hover {
   color: #007acc; /* Optional: Change color on hover */
   text-decoration: none; /* Ensures no underline on hover */
 }
+/* Styling for Code Blocks */
+pre {
+    background-color: #2d2d2d; /* Dark background for code */
+    color: #f8f8f2; /* Light text color */
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto; /* Horizontal scroll for long lines */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Optional: Add some styling to distinguish SQL keywords */
+code.sql {
+    color: #66d9ef; /* Light blue for SQL keywords */
+}
