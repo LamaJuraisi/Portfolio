@@ -18,14 +18,15 @@ header {
 }
 
 /* Overlay Effect with Updated Tint */
-.overlay {
-  background: rgba(29, 43, 58, 0.5); /* Navy blue tint */
+header::before, .overlay {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 0; /* Ensures overlay stays below other elements */
+  background: rgba(29, 43, 58, 0.7); /* Stronger navy tint */
+  z-index: 0;
 }
 
 /* Header Content */
@@ -54,7 +55,6 @@ nav a {
   margin: 0 1em;
   font-weight: 600;
   text-decoration: none;
-  position: relative;
   z-index: 1;
 }
 
@@ -76,7 +76,7 @@ nav a:hover {
 
 .actions .button:hover {
   background-color: white;
-  color: #1D2B3A;
+  color: #1D2B3A; /* Updated button hover color */
 }
 
 /* Top Left Corner Information */
@@ -110,13 +110,13 @@ main {
 
 /* Footer */
 footer {
-  background: #1D2B3A;
-  color: #CCCCCC;
+  background: #1D2B3A; /* Match footer to body color */
+  color: #CCCCCC; /* Slightly lighter text for readability */
   text-align: center;
   padding: 1em;
   margin-top: auto;
-  font-size: 0.9em;
-  font-weight: normal;
+  font-size: 0.9em; /* Smaller font for footer */
+  font-weight: normal; /* Remove bold */
 }
 
 /* Heading Styling */
@@ -164,5 +164,5 @@ a.button {
 
 a.button:hover {
   background-color: white;
-  color: #1D2B3A;
+  color: #1D2B3A; /* Updated hover color for contrast */
 }
