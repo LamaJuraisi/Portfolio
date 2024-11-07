@@ -134,3 +134,50 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+/* Overlay Effect */
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Purple tint overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+/* Header Text and Button Styles */
+#banner h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+#banner p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.actions .button {
+    font-family: 'Merriweather', serif;
+    font-size: 1.1em;
+    padding: 0.8em 2em;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+/* Top Left Corner Text */
+.top-left-info h2, .top-left-info p {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Centered Layout and Spacing */
+.inner {
+    position: relative;
+    text-align: center;
+}
