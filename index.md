@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Welcome to My Portfolio
+# Welcome to My Portfolio!
 
 Hi there! I’m Lama, a Business Analyst passionate about using data to drive insights and make a real impact. Throughout my career, I’ve worked on projects that blend strategic analysis with technical skills, like data visualization and automation.
 
