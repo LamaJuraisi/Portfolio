@@ -1,21 +1,21 @@
+/* Base body styles */
 body {
   font-family: 'Merriweather', serif;
   line-height: 1.6;
   color: #333;
 }
 
-/* Header styles with background image */
+/* Header styles with background image and purple tint overlay */
 header {
   position: relative;
-  background: url('https://lamajuraisi.github.io/Portfolio/assets/images/pic03.jpg') no-repeat center center !important;
-  background-size: cover !important;
+  background: url('/assets/images/pic03.jpg') no-repeat center center;
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 3em 1em;
 }
 
-
-/* Overlay to darken background for text visibility */
+/* Purple-tinted overlay for header */
 header::before {
   content: "";
   position: absolute;
@@ -23,11 +23,11 @@ header::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(128, 0, 128, 0.4); /* Purple tint with 40% opacity */
   z-index: 0;
 }
 
-/* Ensure header text and nav are above overlay */
+/* Ensure header text and nav are above the overlay */
 header h1, header p, header nav {
   position: relative;
   z-index: 1;
@@ -91,4 +91,13 @@ h1 {
 h2 {
   font-size: 2em;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles for header nav alignment */
+header {
+  background: url('/assets/images/pic03.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 2em;
 }
