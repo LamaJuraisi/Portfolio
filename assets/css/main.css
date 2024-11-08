@@ -1,14 +1,13 @@
 /* Base Styling */
 body {
-  font-family: 'Raleway', sans-serif; /* Set a base font here */
+  font-family: 'Raleway', sans-serif;
   line-height: 1.6;
   color: #CCCCCC;
   background-color: #1D2B3A;
   margin: 0;
-  padding-bottom: 3em; /* Space for footer */
 }
 
-/* Header styling with background image */
+/* Header Styling with Background Image */
 header {
   position: relative;
   background: url('https://lamajuraisi.github.io/Portfolio/assets/images/pic03.jpg') no-repeat center center;
@@ -18,7 +17,7 @@ header {
   padding: 5em 1em;
 }
 
-/* Overlay Effect */
+/* Overlay with Theme Tint */
 header::before {
   content: "";
   position: absolute;
@@ -26,7 +25,7 @@ header::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(29, 43, 58, 0.84);
+  background: rgba(29, 43, 58, 0.85);
   z-index: 0;
 }
 
@@ -37,6 +36,7 @@ header h1, header p, header nav {
 
 /* Header Content */
 header h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 3em;
   color: white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
@@ -61,44 +61,19 @@ nav a:hover {
   color: #007acc;
 }
 
-/* Button Styling */
-.actions .button {
-  font-size: 1.1em;
-  padding: 0.8em 2em;
-  border: 2px solid white;
-  color: white;
-  background-color: transparent;
-  text-transform: uppercase;
-}
-
-.actions .button:hover {
-  background-color: white;
-  color: #1D2B3A;
-}
-
-/* Main Content Styling */
-main {
-  padding: 2em 1em;
-  max-width: 800px;
-  margin: auto;
-}
-
 /* Footer */
 footer {
-  background: #1D2B3A;
-  color: rgba(204, 204, 204, 0.4); /* Light opacity for transparency */
+  background: rgba(29, 43, 58, 0.9); /* Transparent footer for consistency */
+  color: #CCCCCC;
   text-align: left;
   padding: 1em 2em;
-  font-size: 0.7em; /* Smaller font */
-  font-family: 'Raleway', sans-serif; /* Apply specific font for footer */
+  font-size: 0.9em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   letter-spacing: 0.5px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
-/* Remove underline from all links */
+/* Remove underline from links */
 a {
   text-decoration: none;
   color: white;
@@ -106,4 +81,15 @@ a {
 
 a:hover {
   color: #007acc;
+}
+
+/* Code Block Styling */
+pre, code {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
 }
