@@ -1,6 +1,6 @@
 /* Base Styling */
 body {
-  font-family: 'Raleway', sans-serif; /* Set the base font */
+  font-family: 'Raleway', sans-serif;
   line-height: 1.6;
   color: #CCCCCC; /* Slightly lighter for readability */
   background-color: #1D2B3A; /* Updated navy background color */
@@ -81,9 +81,9 @@ nav a:hover {
   position: absolute;
   top: 1em;
   left: 1em;
-  font-size: 0.9em;
   color: white;
   text-transform: uppercase;
+  font-size: 0.9em;
 }
 
 /* Main Content Styling */
@@ -96,14 +96,18 @@ main {
 /* Footer */
 footer {
   background: #1D2B3A;
-  color: rgba(204, 204, 204, 0.8); /* Footer text with slight transparency */
+  color: rgba(204, 204, 204, 0.4); /* Footer text with increased transparency */
   text-align: left;
   padding: 1em 2em;
-  font-size: 0.9em;
+  font-size: 0.7em; /* Smaller font size */
   font-family: 'Raleway', sans-serif; /* Font for footer */
   font-weight: 400;
   letter-spacing: 0.5px;
+  position: fixed; /* Fixed at the bottom */
+  bottom: 0;
+  width: 100%;
 }
+
 
 /* Remove underline from all links */
 a {
