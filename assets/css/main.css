@@ -101,11 +101,12 @@ main {
 footer {
   background: #1D2B3A; /* Match footer to body color */
   color: #CCCCCC; /* Slightly lighter text for readability */
-  text-align: center;
+  text-align: left; /* Align text to the left */
   padding: 1em;
   margin-top: auto;
   font-size: 0.9em; /* Smaller font for footer */
   font-weight: normal; /* Remove bold */
+  padding-left: 2em; /* Add some padding to the left */
 }
 
 /* Remove underline from all links */
