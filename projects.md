@@ -3,7 +3,7 @@ layout: default
 title: "My Projects"
 ---
 
-# Projects
+# My Projects
 
 ## [Project 1: Data Analysis for XYZ Corp](projects/MGMT544.md)
 A deep dive into sales and market trends for XYZ Corp. [Read More](projects/MGMT544.md)
