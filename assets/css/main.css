@@ -160,14 +160,12 @@ a:hover {
   text-decoration: none;
 }
 
-/* Hamburger Menu */
 #menu-button {
     cursor: pointer;
     display: inline-block;
     padding: 10px;
     z-index: 10;
 }
-
 #menu-button span {
     display: block;
     width: 30px;
@@ -175,12 +173,9 @@ a:hover {
     margin: 6px auto;
     background-color: #fff;
 }
-
-/* Side navigation menu */
 #side-menu.hidden {
     display: none;
 }
-
 #side-menu {
     position: fixed;
     left: 0;
@@ -189,9 +184,8 @@ a:hover {
     height: 100%;
     background-color: #1D2B3A;
     padding: 1em;
-    z-index: 9; /* Ensure it overlays content */
+    z-index: 100;
 }
-
 #side-menu a {
     display: block;
     color: white;
