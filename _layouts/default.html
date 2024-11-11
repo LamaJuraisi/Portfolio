@@ -65,19 +65,21 @@
         <h1 class="markazi-text-bold">{{ site.title }}</h1>
         <p class="source-sans-3-regular">{{ site.description }}</p>
 
-        <!-- Menu Button -->
-        <div id="menu-button" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+<!-- Menu Button for Mobile View -->
+<div id="menu-button" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
 
-        <!-- Side Navigation Menu -->
-        <nav id="side-menu">
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/projects' | relative_url }}">Projects</a>
-            <a href="{{ '/contact' | relative_url }}">Contact</a>
-        </nav>
+<!-- Top Navigation Menu -->
+<nav id="top-menu">
+    <ul>
+        <li><a href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="{{ '/projects' | relative_url }}"><i class="fas fa-briefcase"></i> Projects</a></li>
+        <li><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+</nav>
     </header>
     
     <!-- Main Content Area -->
