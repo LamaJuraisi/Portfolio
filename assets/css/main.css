@@ -49,6 +49,7 @@ header h1 {
   font-weight: 800;
 }
 
+/* Welcome Text Styling */
 header p {
   font-size: 1.2em;
   color: rgba(255, 255, 255, 0.8);
@@ -60,11 +61,12 @@ nav a {
   color: #ffffff;
   margin: 0 1em;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none; /* Removes underline from links */
 }
 
 nav a:hover {
   color: #007acc;
+  text-decoration: none; /* Ensures no underline on hover */
 }
 
 /* Button Styling */
@@ -83,15 +85,42 @@ nav a:hover {
   color: #1D2B3A;
 }
 
+/* Top Left Corner Information */
+.top-left-info {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+/* Main Content Styling */
+main {
+  padding: 2em 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
 /* Footer Styling */
 footer {
-  background: rgba(29, 43, 58, 0.9);
-  color: #CCCCCC;
+  background: rgba(29, 43, 58, 0.7); /* Make footer more transparent */
+  color: rgba(204, 204, 204, 0.7); /* Lighter and more transparent text */
   text-align: left;
-  padding: 1em 2em;
-  font-size: 0.85em;
+  padding: 0.5em 2em;
+  font-size: 0.75em; /* Smaller font for footer */
   font-family: 'Raleway', sans-serif; /* Footer-specific font */
   font-weight: 400;
   letter-spacing: 0.5px;
-  margin-left: 20px; /* Adjusts the alignment slightly from the left */
+}
+
+/* Remove underline from all links */
+a {
+  text-decoration: none; /* Removes underline */
+  color: white; /* Keeps links visible */
+}
+
+a:hover {
+  color: #007acc; /* Optional: Change color on hover */
+  text-decoration: none; /* Ensures no underline on hover */
 }
