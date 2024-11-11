@@ -17,18 +17,20 @@
     <header>
         <h1 class="markazi-text-bold">{{ site.title }}</h1> <!-- Markazi Text for the title -->
         <p class="source-sans-3-regular">{{ site.description }}</p> <!-- Source Sans 3 for description -->
-    <div id="menu-button" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <nav id="side-menu" class="hidden">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/projects' | relative_url }}">Projects</a>
-        <a href="{{ '/contact' | relative_url }}">Contact</a>
-    </nav>
-</header>
 
+        <!-- Menu Button for Toggle -->
+        <div id="menu-button" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Side Navigation -->
+        <nav id="side-menu" class="hidden">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/projects' | relative_url }}">Projects</a>
+            <a href="{{ '/contact' | relative_url }}">Contact</a>
+        </nav>
     </header>
     
     <!-- Main Content Area -->
@@ -40,10 +42,12 @@
     <footer>
         <p class="ubuntu-light" style="opacity: 0.8; font-size: 0.9em;">&copy; {{ site.time | date: "%Y" }} Lama's Portfolio - Business Analyst | Data Enthusiast</p>
     </footer>
+
+    <!-- JavaScript for Menu Toggle -->
     <script>
-    function toggleMenu() {
-        document.getElementById("side-menu").classList.toggle("hidden");
-    }
-</script>
+        function toggleMenu() {
+            document.getElementById("side-menu").classList.toggle("hidden");
+        }
+    </script>
 </body>
 </html>
