@@ -244,4 +244,5 @@ pre[class*=language-] {
 .get-started-button:hover {
     background-color: white;
     color: #1D2B3A;
+    transition: background-color 0.3s, color 0.3s;
 }
