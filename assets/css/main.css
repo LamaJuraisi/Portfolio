@@ -183,3 +183,42 @@ a:hover {
     padding: 10px;
     text-decoration: none;
 }
+/* Styling for the menu button */
+#menu-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    z-index: 10;
+}
+
+#menu-button span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #fff;
+}
+
+/* Side navigation menu */
+#side-menu.hidden {
+    display: none;
+}
+
+#side-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #1D2B3A;
+    padding: 1em;
+}
+
+#side-menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
