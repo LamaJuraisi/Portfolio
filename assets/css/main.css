@@ -1,62 +1,29 @@
 /* Base Styling */
 body {
-  font-family: 'Raleway', sans-serif; /* Use Raleway for all body text */
+  font-family: 'Raleway', sans-serif;
   line-height: 1.6;
-  color: #CCCCCC; /* Slightly lighter for readability */
-  background-color: #1D2B3A; /* Updated navy background color */
+  color: #CCCCCC;
+  background-color: #1D2B3A;
   margin: 0;
 }
+
 /* Title Styling */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif; /* Apply Raleway to all titles */
-  font-weight: 700; /* Optional: Adjust weight for emphasis */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   color: white;
 }
 
 /* Font Classes */
-.markazi {
-  font-family: 'Markazi Text', serif;
-}
-
-.merriweather-regular {
-  font-family: 'Merriweather', serif;
-  font-weight: 400;
-}
-
-.merriweather-bold {
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-}
-
-.ubuntu-regular {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-}
-
-.ubuntu-bold {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 700;
-}
-
-.source-sans-regular {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 400;
-}
-
-.source-sans-bold {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 700;
-}
-
-.raleway-regular {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-
-.raleway-bold {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-}
+.markazi { font-family: 'Markazi Text', serif; }
+.merriweather-regular { font-family: 'Merriweather', serif; font-weight: 400; }
+.merriweather-bold { font-family: 'Merriweather', serif; font-weight: 700; }
+.ubuntu-regular { font-family: 'Ubuntu', sans-serif; font-weight: 400; }
+.ubuntu-bold { font-family: 'Ubuntu', sans-serif; font-weight: 700; }
+.source-sans-regular { font-family: 'Source Sans 3', sans-serif; font-weight: 400; }
+.source-sans-bold { font-family: 'Source Sans 3', sans-serif; font-weight: 700; }
+.raleway-regular { font-family: 'Raleway', sans-serif; font-weight: 400; }
+.raleway-bold { font-family: 'Raleway', sans-serif; font-weight: 700; }
 
 /* Header styling with background image */
 header {
@@ -68,14 +35,10 @@ header {
   padding: 5em 1em;
 }
 
-/* Overlay Effect */
 header::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(29, 43, 58, 0.84);
   z-index: 0;
 }
@@ -85,7 +48,6 @@ header h1, header p, header nav {
   z-index: 1;
 }
 
-/* Header Content */
 header h1 {
   font-family: 'Bitter', serif;
   font-size: 3em;
@@ -99,18 +61,6 @@ header p {
   font-size: 1.2em;
   color: rgba(255, 255, 255, 0.8);
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Navigation Link Styling */
-nav a {
-  color: #ffffff;
-  margin: 0 1em;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #007acc;
 }
 
 /* Button Styling */
@@ -180,14 +130,18 @@ a:hover {
 
 /* Top Navigation Menu Styling */
 #top-menu {
-  background: rgba(29, 43, 58, 0.9); /* Semi-transparent background */
+  background: rgba(29, 43, 58, 0.9);
   width: 100%;
   padding: 10px 0;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
+  display: none;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#top-menu.show {
+  display: flex; /* Show menu when toggled */
 }
 #top-menu ul {
   display: flex;
@@ -213,7 +167,7 @@ a:hover {
   gap: 5px;
 }
 #top-menu ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* Highlight on hover */
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Icon Styling */
@@ -224,13 +178,13 @@ a:hover {
 /* Responsive Styling */
 @media (max-width: 768px) {
   #menu-button {
-    display: block; /* Show menu button on mobile */
-  }
-  #top-menu {
-    display: none; /* Hide top menu on mobile */
+    display: block;
   }
   #top-menu.show {
-    display: block; /* Show when toggled */
+    display: block;
+  }
+  #top-menu {
+    display: none;
   }
 }
 
@@ -263,5 +217,4 @@ pre[class*=language-] {
 .token.comment,
 .token.prolog,
 .token.cdata {
-  color: #999;
-}
+  color: #9
