@@ -144,7 +144,7 @@ footer {
   text-align: left;
   padding: 1em 2em;
   font-size: 0.8em;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif !important;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
