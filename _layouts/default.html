@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+    <!-- Font Preconnect and Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Header Section with Fonts -->
     <header>
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
+        <h1 class="markazi-text-bold">{{ site.title }}</h1> <!-- Markazi Text for the title -->
+        <p class="source-sans-3-regular">{{ site.description }}</p> <!-- Source Sans 3 for description -->
         <nav>
-            <a href="{{ '/' | relative_url }}">Home</a> |
-            <a href="{{ '/projects' | relative_url }}">Projects</a> |
-            <a href="{{ '/contact' | relative_url }}">Contact</a>
+            <a href="{{ '/' | relative_url }}" class="raleway-regular">Home</a> |
+            <a href="{{ '/projects' | relative_url }}" class="raleway-regular">Projects</a> |
+            <a href="{{ '/contact' | relative_url }}" class="raleway-regular">Contact</a>
         </nav>
     </header>
     
-    <!-- Main content area -->
+    <!-- Main Content Area -->
     <main>
         {{ content }}
     </main>
     
-    <!-- Footer area that sticks to the bottom -->
-<footer>
-    <p>&copy; {{ site.time | date: "%Y" }} Lama's Portfolio - Business Analyst | Data Enthusiast</p>
-</footer>
+    <!-- Footer Section -->
+    <footer>
+        <p class="ubuntu-light" style="opacity: 0.8; font-size: 0.9em;">&copy; {{ site.time | date: "%Y" }} Lama's Portfolio - Business Analyst | Data Enthusiast</p>
+    </footer>
 </body>
 </html>
