@@ -2,8 +2,8 @@
 body {
   font-family: 'Source Sans 3', sans-serif;
   line-height: 1.6;
-  color: #CCCCCC; /* Slightly lighter for readability */
-  background-color: #1D2B3A; /* Updated navy background color */
+  color: #CCCCCC;
+  background-color: #1D2B3A;
   margin: 0;
 }
 
@@ -17,39 +17,14 @@ body {
   font-weight: 400;
 }
 
-.merriweather-bold {
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-}
-
 .ubuntu-regular {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
 }
 
-.ubuntu-bold {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 700;
-}
-
 .source-sans-regular {
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
-}
-
-.source-sans-bold {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 700;
-}
-
-.raleway-regular {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-}
-
-.raleway-bold {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
 }
 
 /* Header styling with background image */
@@ -62,7 +37,6 @@ header {
   padding: 5em 1em;
 }
 
-/* Overlay Effect */
 header::before {
   content: "";
   position: absolute;
@@ -70,41 +44,13 @@ header::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(29, 43, 58, 0.84); /* Updated navy tint color */
+  background: rgba(29, 43, 58, 0.84);
   z-index: 0;
 }
 
 header h1, header p, header nav {
   position: relative;
   z-index: 1;
-}
-
-/* Header Content */
-header h1 {
-  font-family: 'Bitter', serif;
-  font-size: 3em;
-  color: white;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-  font-weight: 800;
-}
-
-header p {
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 1.2em;
-  color: rgba(255, 255, 255, 0.8);
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Navigation Link Styling */
-nav a {
-  color: #ffffff;
-  margin: 0 1em;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #007acc;
 }
 
 /* Button Styling */
@@ -121,7 +67,7 @@ nav a:hover {
 
 .actions .button:hover {
   background-color: white;
-  color: #1D2B3A; /* Updated button hover color */
+  color: #1D2B3A;
 }
 
 /* Main Content Styling */
@@ -134,13 +80,11 @@ main {
 /* Footer */
 footer {
   background: #1D2B3A;
-  color: rgba(204, 204, 204, 0.3); /* Slight transparency */
+  color: rgba(204, 204, 204, 0.8);
   text-align: left;
   padding: 1em 2em;
   font-size: 0.8em;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.5px;
 }
 
 /* Link Styling */
@@ -153,72 +97,44 @@ a:hover {
   color: #007acc;
   text-decoration: none;
 }
+
 /* Hamburger Menu */
 #menu-button {
-    cursor: pointer;
-    display: inline-block;
-}
-#menu-button span {
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin: 6px auto;
-    background-color: #fff;
-}
-.hidden {
-    display: none;
-}
-#side-menu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 200px;
-    height: 100%;
-    background-color: #1D2B3A;
-    padding: 1em;
-}
-#side-menu a {
-    display: block;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-}
-/* Styling for the menu button */
-#menu-button {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px;
-    z-index: 10;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  z-index: 10;
 }
 
 #menu-button span {
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin: 6px auto;
-    background-color: #fff;
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 6px auto;
+  background-color: #fff;
 }
 
-/* Side navigation menu */
+/* Side Navigation Menu */
 #side-menu.hidden {
-    display: none;
+  display: none;
 }
 
 #side-menu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 200px;
-    height: 100%;
-    background-color: #1D2B3A;
-    padding: 1em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #1D2B3A;
+  padding: 1em;
+  display: none; /* Initially hidden */
 }
 
 #side-menu a {
-    display: block;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
