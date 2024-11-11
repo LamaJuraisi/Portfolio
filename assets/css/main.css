@@ -17,14 +17,39 @@ body {
   font-weight: 400;
 }
 
+.merriweather-bold {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
 .ubuntu-regular {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
 }
 
+.ubuntu-bold {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
 .source-sans-regular {
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
+}
+
+.source-sans-bold {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+}
+
+.raleway-regular {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.raleway-bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 /* Header styling with background image */
@@ -37,6 +62,7 @@ header {
   padding: 5em 1em;
 }
 
+/* Overlay Effect */
 header::before {
   content: "";
   position: absolute;
@@ -51,6 +77,34 @@ header::before {
 header h1, header p, header nav {
   position: relative;
   z-index: 1;
+}
+
+/* Header Content */
+header h1 {
+  font-family: 'Bitter', serif;
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+}
+
+header p {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Link Styling */
+nav a {
+  color: #ffffff;
+  margin: 0 1em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #007acc;
 }
 
 /* Button Styling */
@@ -80,11 +134,13 @@ main {
 /* Footer */
 footer {
   background: #1D2B3A;
-  color: rgba(204, 204, 204, 0.3);
+  color: rgba(204, 204, 204, 0.8);
   text-align: left;
   padding: 1em 2em;
   font-size: 0.8em;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 /* Link Styling */
@@ -137,4 +193,36 @@ a:hover {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+}
+
+/* Prism Theme (optional) */
+code[class*=language-], pre[class*=language-] {
+  color: #ccc;
+  background: 0 0;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  hyphens: none;
+}
+
+pre[class*=language-] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  background: #2d2d2d;
+  color: #f8f8f2;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata {
+  color: #999;
 }
