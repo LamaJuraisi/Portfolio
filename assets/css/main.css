@@ -160,39 +160,79 @@ a:hover {
   text-decoration: none;
 }
 
+/* Menu Button (for mobile view) */
 #menu-button {
     cursor: pointer;
     display: inline-block;
     padding: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
     z-index: 10;
+    display: none; /* Hide on desktop */
 }
 #menu-button span {
     display: block;
     width: 30px;
     height: 3px;
     margin: 6px auto;
-    background-color: #fff;
+    background-color: white;
 }
-#side-menu.hidden {
-    display: none;
-}
-#side-menu {
+
+/* Top Navigation Menu Styling */
+#top-menu {
+    background: rgba(29, 43, 58, 0.8); /* Semi-transparent navy background */
+    width: 100%;
+    padding: 10px 0;
     position: fixed;
-    left: 0;
     top: 0;
-    width: 200px;
-    height: 100%;
-    background-color: #1D2B3A;
-    padding: 1em;
+    left: 0;
     z-index: 100;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-#side-menu a {
-    display: block;
+#top-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#top-menu ul li {
+    display: inline;
+}
+#top-menu ul li a {
     color: white;
-    padding: 10px;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#top-menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Highlight on hover */
+}
+
+/* Icon Styling */
+#top-menu i {
+    font-size: 1.2em;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    #menu-button {
+        display: block; /* Show menu button on mobile */
+    }
+    #top-menu {
+        display: none; /* Hide top menu on mobile */
+    }
+    #top-menu.show {
+        display: block; /* Show when toggled */
+    }
 }
 
 /* Prism Theme (optional) */
