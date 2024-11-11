@@ -1,17 +1,55 @@
 /* Base Styling */
 body {
-  font-family: 'Source Sans 3', sans-serif; /* Use the specified font for main content */
+  font-family: 'Source Sans 3', sans-serif;
   line-height: 1.6;
-  color: #CCCCCC;
-  background-color: #1D2B3A;
+  color: #CCCCCC; /* Slightly lighter for readability */
+  background-color: #1D2B3A; /* Updated navy background color */
   margin: 0;
 }
 
-/* Center Content and Limit Width */
-main {
-  padding: 2em 1em;
-  max-width: 800px;
-  margin: auto; /* Centers the main content */
+/* Font Classes */
+.markazi {
+  font-family: 'Markazi Text', serif;
+}
+
+.merriweather-regular {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+.merriweather-bold {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.ubuntu-regular {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+.ubuntu-bold {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.source-sans-regular {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+}
+
+.source-sans-bold {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+}
+
+.raleway-regular {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.raleway-bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 /* Header styling with background image */
@@ -32,7 +70,7 @@ header::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(29, 43, 58, 0.84);
+  background: rgba(29, 43, 58, 0.84); /* Updated navy tint color */
   z-index: 0;
 }
 
@@ -43,14 +81,15 @@ header h1, header p, header nav {
 
 /* Header Content */
 header h1 {
+  font-family: 'Bitter', serif;
   font-size: 3em;
   color: white;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
   font-weight: 800;
 }
 
-/* Welcome Text Styling */
 header p {
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 1.2em;
   color: rgba(255, 255, 255, 0.8);
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
@@ -61,16 +100,16 @@ nav a {
   color: #ffffff;
   margin: 0 1em;
   font-weight: 600;
-  text-decoration: none; /* Removes underline from links */
+  text-decoration: none;
 }
 
 nav a:hover {
   color: #007acc;
-  text-decoration: none; /* Ensures no underline on hover */
 }
 
 /* Button Styling */
 .actions .button {
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 1.1em;
   padding: 0.8em 2em;
   border: 2px solid white;
@@ -82,17 +121,7 @@ nav a:hover {
 
 .actions .button:hover {
   background-color: white;
-  color: #1D2B3A;
-}
-
-/* Top Left Corner Information */
-.top-left-info {
-  position: absolute;
-  top: 1em;
-  left: 1em;
-  color: white;
-  text-transform: uppercase;
-  font-size: 0.9em;
+  color: #1D2B3A; /* Updated button hover color */
 }
 
 /* Main Content Styling */
@@ -102,25 +131,25 @@ main {
   margin: auto;
 }
 
-/* Footer Styling */
+/* Footer */
 footer {
-  background: rgba(29, 43, 58, 0.7); /* Make footer more transparent */
-  color: rgba(204, 204, 204, 0.3); /* Lighter and more transparent text */
+  background: #1D2B3A;
+  color: rgba(204, 204, 204, 0.3); /* Slight transparency */
   text-align: left;
-  padding: 0.5em 2em;
-  font-size: 0.75em; /* Smaller font for footer */
-  font-family: 'Raleway', sans-serif; /* Footer-specific font */
+  padding: 1em 2em;
+  font-size: 0.8em;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
 
-/* Remove underline from all links */
+/* Link Styling */
 a {
-  text-decoration: none; /* Removes underline */
-  color: white; /* Keeps links visible */
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-  color: #007acc; /* Optional: Change color on hover */
-  text-decoration: none; /* Ensures no underline on hover */
+  color: #007acc;
+  text-decoration: none;
 }
