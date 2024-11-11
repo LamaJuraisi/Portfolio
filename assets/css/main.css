@@ -105,7 +105,7 @@ main {
 /* Footer Styling */
 footer {
   background: rgba(29, 43, 58, 0.7); /* Make footer more transparent */
-  color: rgba(204, 204, 204, 0.7); /* Lighter and more transparent text */
+  color: rgba(204, 204, 204, 0.3); /* Lighter and more transparent text */
   text-align: left;
   padding: 0.5em 2em;
   font-size: 0.75em; /* Smaller font for footer */
