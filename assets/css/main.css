@@ -224,7 +224,7 @@ pre[class*=language-] {
 .token.cdata {
   color: #999;
 }
-/* Get Started Button Styling */
+/* Get Started Button Styling with Debugging */
 .get-started-button {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
@@ -235,7 +235,9 @@ pre[class*=language-] {
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 25px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 10; /* Ensure it's on top */
+    display: inline-block;
+    position: relative;
 }
 
 .get-started-button:hover {
