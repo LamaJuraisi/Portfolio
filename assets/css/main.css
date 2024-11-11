@@ -63,6 +63,7 @@ header p {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* "Let's Get Started" Button Styling */
 .get-started-button {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
@@ -76,12 +77,12 @@ header p {
     display: inline-block;
     position: relative;
     margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .get-started-button:hover {
     background-color: white;
     color: #1D2B3A;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 /* Main Content Styling */
@@ -252,14 +253,80 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Prism.js Code Block Styling */
 pre[class*="language-"] {
     background: #2d2d2d;
     border-radius: 8px;
     padding: 1em;
     overflow: auto;
     color: #f8f8f2;
+    font-size: 0.9em;
+    line-height: 1.5;
 }
 
 code[class*="language-"] {
-    font-size: 0.9em;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+/* Additional Prism Theme Styling (using Tomorrow theme colors) */
+.token.comment,
+.token.prolog,
+.token.cdata {
+    color: #999;
+}
+
+.token.punctuation {
+    color: #ccc;
+}
+
+.token.selector,
+.token.tag {
+    color: #e2777a;
+}
+
+.token.property,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #f08d49;
+}
+
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+    color: #67cdcc;
+}
+
+.token.atrule,
+.token.keyword,
+.token.class-name,
+.token.regex,
+.token.important,
+.token.bold {
+    color: #cc99cd;
+}
+
+.token.function,
+.token.method {
+    color: #d19a66;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
 }
