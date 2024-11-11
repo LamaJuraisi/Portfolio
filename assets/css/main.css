@@ -246,3 +246,84 @@ pre[class*=language-] {
     color: #1D2B3A;
     transition: background-color 0.3s, color 0.3s;
 }
+/* Base styles for larger screens go here */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    /* Adjust header and text size */
+    header h1 {
+        font-size: 2em;
+    }
+
+    /* Adjust padding and font sizes in sections */
+    #banner {
+        padding: 3em 1em;
+        text-align: center;
+    }
+
+    /* Center-align and scale down font sizes */
+    .top-left-info h2 {
+        font-size: 1.2em;
+    }
+
+    /* Adjust the content text size */
+    .content p {
+        font-size: 1em;
+    }
+
+    /* Resize the button for mobile */
+    .get-started-button {
+        font-size: 1em;
+        padding: 0.6em 1.5em;
+    }
+}
+
+/* Smaller screens */
+@media (max-width: 480px) {
+    /* Further adjust text and padding for smaller mobile screens */
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .get-started-button {
+        font-size: 0.9em;
+        padding: 0.5em 1.2em;
+    }
+}
+/* Hide top menu and show hamburger icon on mobile */
+@media (max-width: 768px) {
+    #top-menu {
+        display: none;
+    }
+    #menu-button {
+        display: block; /* Show hamburger button */
+    }
+    #side-menu {
+        transform: translateX(-100%); /* Hide side menu initially */
+        transition: transform 0.3s ease;
+    }
+    #side-menu.show {
+        transform: translateX(0); /* Show side menu when toggled */
+    }
+}
+
+/* Center the menu items in mobile view */
+#side-menu a {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+        padding: 1em;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+}
