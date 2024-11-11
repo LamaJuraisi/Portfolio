@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Contact"
+title: Contact Me
 ---
 
 # Let's Get in Touch!
