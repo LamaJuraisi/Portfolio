@@ -4,3 +4,5 @@ email: "Lama.juraisy@gmail.com"
 social:
 linkedin: https://linkedin.com/in/lamaaljuraisi
 github: https://github.com/LamaJuraisi
+baseurl: "/Portfolio" # Keep this if the repository is hosted as a subfolder
+url: "https://lamajuraisi.github.io"
