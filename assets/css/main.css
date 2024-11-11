@@ -6,6 +6,12 @@ body {
   background-color: #1D2B3A; /* Updated navy background color */
   margin: 0;
 }
+/* Title Styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif; /* Apply Raleway to all titles */
+  font-weight: 700; /* Optional: Adjust weight for emphasis */
+  color: white;
+}
 
 /* Font Classes */
 .markazi {
