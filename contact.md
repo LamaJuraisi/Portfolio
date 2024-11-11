@@ -7,6 +7,6 @@ title: Contact Me
 
 ## Feel free to connect with me:
 
-- **LinkedIn**: [Lama Aljuraisi](www.linkedin.com/in/lamaaljuraisi)
+- **LinkedIn**: [Lama Aljuraisi](https://www.linkedin.com/in/lamaaljuraisi)
 - **Email**: [Lama.juraisy@gmail.com](mailto:Lama.juraisy@gmail.com)
 - **School Email**: [laljurai@purdue.edu](mailto:Laljurai@purdue.edu)
