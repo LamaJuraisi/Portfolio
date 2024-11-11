@@ -139,6 +139,7 @@ a:hover {
   z-index: 100;
   display: none;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 #top-menu.show {
   display: flex; /* Show menu when toggled */
@@ -162,9 +163,6 @@ a:hover {
   text-decoration: none;
   padding: 8px 15px;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
 }
 #top-menu ul li a:hover {
   background-color: rgba(255, 255, 255, 0.1);
@@ -180,11 +178,11 @@ a:hover {
   #menu-button {
     display: block;
   }
-  #top-menu.show {
-    display: block;
-  }
   #top-menu {
     display: none;
+  }
+  #top-menu.show {
+    display: block;
   }
 }
 
@@ -217,4 +215,5 @@ pre[class*=language-] {
 .token.comment,
 .token.prolog,
 .token.cdata {
-  color: #9
+  color: #999;
+}
