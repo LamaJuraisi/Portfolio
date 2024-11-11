@@ -225,26 +225,20 @@ pre[class*=language-] {
   color: #999;
 }
 /* Get Started Button Styling */
-.get-started-container {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
 .get-started-button {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.2em;
-  padding: 12px 24px;
-  border: 2px solid white;
-  color: white;
-  background-color: transparent;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 25px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    padding: 12px 24px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .get-started-button:hover {
-  background-color: white;
-  color: #1D2B3A; /* Updated color for hover */
+    background-color: white;
+    color: #1D2B3A;
 }
