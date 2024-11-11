@@ -17,11 +17,19 @@
     <header>
         <h1 class="markazi-text-bold">{{ site.title }}</h1> <!-- Markazi Text for the title -->
         <p class="source-sans-3-regular">{{ site.description }}</p> <!-- Source Sans 3 for description -->
-        <nav>
-            <a href="{{ '/' | relative_url }}" class="raleway-regular">Home</a> |
-            <a href="{{ '/projects' | relative_url }}" class="raleway-regular">Projects</a> |
-            <a href="{{ '/contact' | relative_url }}" class="raleway-regular">Contact</a>
-        </nav>
+<header>
+    <div id="menu-button" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="side-menu" class="hidden">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/projects' | relative_url }}">Projects</a>
+        <a href="{{ '/contact' | relative_url }}">Contact</a>
+    </nav>
+</header>
+
     </header>
     
     <!-- Main Content Area -->
