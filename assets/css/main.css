@@ -1,9 +1,9 @@
 /* Base Styling */
 body {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Raleway', sans-serif; /* Use Raleway for all body text */
   line-height: 1.6;
-  color: #CCCCCC;
-  background-color: #1D2B3A;
+  color: #CCCCCC; /* Slightly lighter for readability */
+  background-color: #1D2B3A; /* Updated navy background color */
   margin: 0;
 }
 
